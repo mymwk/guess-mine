@@ -25,6 +25,6 @@ const handleListening = () => {
 
 const server = app.listen(PORT, handleListening);
 
-const io = socketIO(server); //server
+const io = socketIO(server); //server를 socket위에 올림
 
 io.on("connection", (socket) => socketController(socket));

@@ -1,8 +1,9 @@
 @import "reset";
 @import "variables";
 @import "login";
+@import "notifications";
+@import "chat";
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
-$color: red;
 
 * {
   box-sizing: border-box;

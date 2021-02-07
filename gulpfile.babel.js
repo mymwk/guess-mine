@@ -1,5 +1,6 @@
 import gulp from "gulp";
 import sass from "gulp-sass";
+// Gulp는 JS, SCSS 모두 클라이언트와 관련된 것.
 import autoprefixer from "gulp-autoprefixer";
 import minifyCSS from "gulp-csso";
 import del from "del";
